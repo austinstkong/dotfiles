@@ -1,0 +1,13 @@
+[user]
+	name = Austin Kong
+	email = austin.kong@unsw.edu.au
+[core]
+	editor = vim
+[color]
+	diff = auto
+	ui = auto
+	status = auto
+	branch = auto
+	interactive = auto
+[push]
+	default = simple
