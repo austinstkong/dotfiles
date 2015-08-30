@@ -8,7 +8,6 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="ys"
 ZSH_THEME="robbyrussell"
 
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -77,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -112,7 +111,7 @@ alias cp="cp -i"
 alias grep='grep -E -n --color=auto'
 alias du='du -ch'
 alias df='df -h'
-alias ra='ranger'
+alias ra='ranger-cd'
 alias :q='exit'
 
 mkcd() { mkdir -p "$@" && cd "$@"; }

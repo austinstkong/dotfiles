@@ -1,9 +1,6 @@
 #!/bin/bash
 
-prefix='austin'
-
 dotfileList=("bashrc" "zshrc" "tmux.conf" "vimrc" "gitconfig")
-
 
 for dotfile in "${dotfileList[@]}"
 do
@@ -12,6 +9,6 @@ do
     then
         echo "File $dotfilePath already exists."
     else
-        cp -v "${prefix}.${dotfile}" "$dotfilePath"
+        cp -v "${dotfile}" "$dotfilePath"
     fi
 done
