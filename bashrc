@@ -57,3 +57,6 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 PS1='\[\e[42;30m\]\u@\h\[\e[37m\]:\[\e[30m\]\w\[\e[0;33m\] $(__git_ps1 "(%s)")\[\e[0m\]\$ '
 
 umask 0007
+
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
