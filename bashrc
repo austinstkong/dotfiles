@@ -7,6 +7,9 @@ fi
 
 # User specific aliases and functions
 
+# Ignore duplicates (ignoredups)  or commands with leading whitespace (ignorespace) in history or both (ignoreboth)
+HISTCONTROL=ignoredups
+
 shopt -s expand_aliases
 
 shopt -s histappend
