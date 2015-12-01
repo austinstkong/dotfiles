@@ -7,6 +7,7 @@ Current contents:
  - vim
  - tmux
  - gitconfig
+ - nano
 
 *To add:*
  - sublime text
