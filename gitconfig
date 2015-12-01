@@ -22,4 +22,6 @@
 	unstage = reset HEAD --
 	last = log -1 HEAD
 [diff]
-	tool = vimdiff
+    external = dotfiles/git-meld.sh
+#	tool = meld
+#	tool = vimdiff
