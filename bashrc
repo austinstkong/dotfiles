@@ -62,19 +62,3 @@ PS1='\[\e[42;30m\]\u@\h\[\e[37m\]:\[\e[30m\]\w\[\e[0;33m\] $(__git_ps1 "(%s)")\[
 
 # u=rwx,g=rwx,o=
 umask 0007
-
-# Up/down arrow for partial history search
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
-#bind '"\e[C": forward-char'
-#bind '"\e[D": backward-char'
-
-# Ctrl left/right to skip through words
-#bind '"\eOC": forward-word'
-#bind '"\eOD": backward-word'
-bind '"[1;5C": forward-word'
-bind '"[1;5D": backward-word'
-
-# Alt left/right to skip to beginning/end of line
-bind '"[1;3C": end-of-line'
-bind '"[1;3D": beginning-of-line'
