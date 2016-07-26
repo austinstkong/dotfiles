@@ -1,1 +1,7 @@
-{"name":"Dotfiles","tagline":"Unix configuration files","body":"# Unix configuration files\r\nAustin Kong\r\n\r\nCurrent contents:\r\n - bash\r\n - zsh\r\n - vim\r\n - tmux\r\n - gitconfig\r\n\r\n*To add:*\r\n - sublime text\r\n - geany\r\n\r\nAlso includes some personal cheatsheats\r\n","google":"UA-70839826-1","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Dotfiles",
+  "tagline": "Unix configuration files",
+  "body": "# Unix configuration files\r\n*Austin Kong*\r\n\r\nCurrent contents:\r\n - bash\r\n - zsh\r\n - vim\r\n - tmux\r\n - gitconfig\r\n\r\n_To add:_\r\n - sublime text\r\n - geany\r\n - LaTeX\r\n\r\nAlso includes some cheatsheats on the wiki\r\n",
+  "google": "UA-70839826-1",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
