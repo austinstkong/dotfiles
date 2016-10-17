@@ -20,7 +20,9 @@ fi
 
 #PS1="\[\e[42;30m\]\u@\h\[\e[37m\]:\[\e[30m\]\w\[\e[0;33m\]\$\[\e[0m\] "
 
-alias ls="ls -hlF --color=auto"
+alias ls="ls -hF --color=auto"
+alias ll="ls -hlF --color=auto"
+alias la="ls -ahlF --color=auto"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
