@@ -22,7 +22,7 @@ fi
 
 alias ls="ls -hF --color=auto"
 alias ll="ls -hlF --color=auto"
-alias la="ls -ahlF --color=auto"
+alias la="ls -AhlF --color=auto"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
